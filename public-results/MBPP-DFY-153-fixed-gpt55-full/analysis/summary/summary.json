@@ -1,6 +1,6 @@
 {
   "dataset": "MBPP-DFY-153-fixed-gpt55-full-YYYYMMDD-HHMMSS",
-  "run_dir": "tools/formalspecc/runs/MBPP-DFY-153-fixed-gpt55-full-YYYYMMDD-HHMMSS",
+  "run_dir": "runs/MBPP-DFY-153-fixed-gpt55-full",
   "total_files": 163,
   "compiled_files": 161,
   "verified_files": 130,

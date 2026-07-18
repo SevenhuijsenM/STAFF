@@ -7,6 +7,10 @@ Included:
 - `analysis/summary/summary.json`
 - `analysis/figures/status_counts.svg`
 - `analysis/figures/proof_gap_profile.svg`
+- `translation_report.md`
+- `metrics.json`
+- `signature_map.json`
+- `untranslated_files.txt`
 
 Excluded on purpose:
 - raw traces

@@ -1,0 +1,8853 @@
+{
+  "generated_at": "2026-07-14T02:32:59.195719+00:00",
+  "input_dir": "runs/MBPP-DFY-153-fixed-gpt55-full",
+  "total_files": 322,
+  "files": [
+    {
+      "file": "task_id_101_initial.c",
+      "preferred_function": "KthElement",
+      "public_functions": [
+        {
+          "name": "KthElement",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_105_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "countTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "bool *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountTrue",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "bool *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_106_initial.c",
+      "preferred_function": "AppendArrayToSeq",
+      "public_functions": [
+        {
+          "name": "AppendArrayToSeq",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            },
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_113_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsInteger",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_126_initial.c",
+      "preferred_function": "SumOfCommonDivisors",
+      "public_functions": [
+        {
+          "name": "SumOfCommonDivisors",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_127_initial.c",
+      "preferred_function": "Multiply",
+      "public_functions": [
+        {
+          "name": "Multiply",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_133_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumNegativesTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumOfNegatives",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_135_initial.c",
+      "preferred_function": "NthHexagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthHexagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_139_initial.c",
+      "preferred_function": "CircleCircumference",
+      "public_functions": [
+        {
+          "name": "CircleCircumference",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_142_initial.c",
+      "preferred_function": "CountIdenticalPositions",
+      "public_functions": [
+        {
+          "name": "CountIdenticalPositions",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "c"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_143_initial.c",
+      "preferred_function": "CountArrays",
+      "public_functions": [
+        {
+          "name": "CountArrays",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "IntArray *",
+              "name": "arrays"
+            },
+            {
+              "type": "int",
+              "name": "arrays_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_145_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MaxDifference",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_14_initial.c",
+      "preferred_function": "TriangularPrismVolume",
+      "public_functions": [
+        {
+          "name": "TriangularPrismVolume",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "base"
+            },
+            {
+              "type": "int",
+              "name": "height"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_161_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_170_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_length"
+            },
+            {
+              "type": "int",
+              "name": "start"
+            },
+            {
+              "type": "int",
+              "name": "end"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumInRange",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_length"
+            },
+            {
+              "type": "int",
+              "name": "start"
+            },
+            {
+              "type": "int",
+              "name": "end"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_171_initial.c",
+      "preferred_function": "PentagonPerimeter",
+      "public_functions": [
+        {
+          "name": "PentagonPerimeter",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "side"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_17_initial.c",
+      "preferred_function": "SquarePerimeter",
+      "public_functions": [
+        {
+          "name": "SquarePerimeter",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "side"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_18_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveChars",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s1"
+            },
+            {
+              "type": "int",
+              "name": "n1"
+            },
+            {
+              "type": "char *",
+              "name": "s2"
+            },
+            {
+              "type": "int",
+              "name": "n2"
+            },
+            {
+              "type": "char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_227_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MinOfThree",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "b <= a && b <=",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_230_initial.c",
+      "preferred_function": "ReplaceBlanksWithChar",
+      "public_functions": [
+        {
+          "name": "ReplaceBlanksWithChar",
+          "return_type": "String",
+          "params": [
+            {
+              "type": "String",
+              "name": "s"
+            },
+            {
+              "type": "char",
+              "name": "ch"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_233_initial.c",
+      "preferred_function": "CylinderLateralSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CylinderLateralSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_234_initial.c",
+      "preferred_function": "CubeVolume",
+      "public_functions": [
+        {
+          "name": "CubeVolume",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_238_initial.c",
+      "preferred_function": "CountNonEmptySubstrings",
+      "public_functions": [
+        {
+          "name": "CountNonEmptySubstrings",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_240_initial.c",
+      "preferred_function": "ReplaceLastElement",
+      "public_functions": [
+        {
+          "name": "ReplaceLastElement",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "first"
+            },
+            {
+              "type": "int",
+              "name": "first_len"
+            },
+            {
+              "type": "int *",
+              "name": "second"
+            },
+            {
+              "type": "int",
+              "name": "second_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_242_initial.c",
+      "preferred_function": "CountCharacters",
+      "public_functions": [
+        {
+          "name": "CountCharacters",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "DafnyString",
+              "name": "s"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_249_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Intersection",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_251_initial.c",
+      "preferred_function": "InsertBeforeEach",
+      "public_functions": [
+        {
+          "name": "InsertBeforeEach",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char* *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            },
+            {
+              "type": "char *",
+              "name": "x"
+            },
+            {
+              "type": "char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_257_initial.c",
+      "preferred_function": "Swap",
+      "public_functions": [
+        {
+          "name": "Swap",
+          "return_type": "IntSeq2",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_261_initial.c",
+      "preferred_function": "ElementWiseDivision",
+      "public_functions": [
+        {
+          "name": "ElementWiseDivision",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_262_initial.c",
+      "preferred_function": "SplitArray",
+      "public_functions": [
+        {
+          "name": "SplitArray",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int",
+              "name": "L"
+            },
+            {
+              "type": "int *",
+              "name": "firstPart"
+            },
+            {
+              "type": "int *",
+              "name": "firstPart_len"
+            },
+            {
+              "type": "int *",
+              "name": "secondPart"
+            },
+            {
+              "type": "int *",
+              "name": "secondPart_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_264_initial.c",
+      "preferred_function": "DogYears",
+      "public_functions": [
+        {
+          "name": "DogYears",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "humanYears"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_266_initial.c",
+      "preferred_function": "LateralSurfaceArea",
+      "public_functions": [
+        {
+          "name": "LateralSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_267_initial.c",
+      "preferred_function": "SumOfSquaresOfFirstNOddNumbers",
+      "public_functions": [
+        {
+          "name": "SumOfSquaresOfFirstNOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_268_initial.c",
+      "preferred_function": "StarNumber",
+      "public_functions": [
+        {
+          "name": "StarNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_269_initial.c",
+      "preferred_function": "AsciiValue",
+      "public_functions": [
+        {
+          "name": "AsciiValue",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_273_initial.c",
+      "preferred_function": "SubtractSequences",
+      "public_functions": [
+        {
+          "name": "SubtractSequences",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_276_initial.c",
+      "preferred_function": "CylinderVolume",
+      "public_functions": [
+        {
+          "name": "CylinderVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_279_initial.c",
+      "preferred_function": "NthDecagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthDecagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_282_initial.c",
+      "preferred_function": "ElementWiseSubtraction",
+      "public_functions": [
+        {
+          "name": "ElementWiseSubtraction",
+          "return_type": "IntArray",
+          "params": [
+            {
+              "type": "IntArray",
+              "name": "a"
+            },
+            {
+              "type": "IntArray",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_284_initial.c",
+      "preferred_function": "AllElementsEqual",
+      "public_functions": [
+        {
+          "name": "AllElementsEqual",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_290_initial.c",
+      "preferred_function": "MaxLengthList",
+      "public_functions": [
+        {
+          "name": "MaxLengthList",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "lists"
+            },
+            {
+              "type": "size_t",
+              "name": "lists_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_292_initial.c",
+      "preferred_function": "Quotient",
+      "public_functions": [
+        {
+          "name": "Quotient",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_2_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SharedElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_304_initial.c",
+      "preferred_function": "ElementAtIndexAfterRotation",
+      "public_functions": [
+        {
+          "name": "ElementAtIndexAfterRotation",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "index"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_307_initial.c",
+      "preferred_function": "",
+      "public_functions": []
+    },
+    {
+      "file": "task_id_309_initial.c",
+      "preferred_function": "Max",
+      "public_functions": [
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_310_initial.c",
+      "preferred_function": "ToCharArray",
+      "public_functions": [
+        {
+          "name": "ToCharArray",
+          "return_type": "CharArray",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_312_initial.c",
+      "preferred_function": "ConeVolume",
+      "public_functions": [
+        {
+          "name": "ConeVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_396_initial.c",
+      "preferred_function": "StartAndEndWithSameChar",
+      "public_functions": [
+        {
+          "name": "StartAndEndWithSameChar",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_397_initial.c",
+      "preferred_function": "MedianOfThree",
+      "public_functions": [
+        {
+          "name": "MedianOfThree",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_399_initial.c",
+      "preferred_function": "BitwiseXOR",
+      "public_functions": [
+        {
+          "name": "BitwiseXOR",
+          "return_type": "size_t",
+          "params": [
+            {
+              "type": "uint32_t *",
+              "name": "a"
+            },
+            {
+              "type": "size_t",
+              "name": "a_len"
+            },
+            {
+              "type": "uint32_t *",
+              "name": "b"
+            },
+            {
+              "type": "size_t",
+              "name": "b_len"
+            },
+            {
+              "type": "uint32_t *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_3_initial.c",
+      "preferred_function": "IsNonPrime",
+      "public_functions": [
+        {
+          "name": "IsNonPrime",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_401_initial.c",
+      "preferred_function": "IndexWiseAddition",
+      "public_functions": [
+        {
+          "name": "IndexWiseAddition",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int *",
+              "name": "row_offsets"
+            },
+            {
+              "type": "int",
+              "name": "rows"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_404_initial.c",
+      "preferred_function": "Min",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_406_initial.c",
+      "preferred_function": "IsOdd",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_412_initial.c",
+      "preferred_function": "RemoveOddNumbers",
+      "public_functions": [
+        {
+          "name": "RemoveOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int *",
+              "name": "evenList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_414_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "ContainsValue",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "value"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "AnyValueExists",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "seq1"
+            },
+            {
+              "type": "int",
+              "name": "len1"
+            },
+            {
+              "type": "int *",
+              "name": "seq2"
+            },
+            {
+              "type": "int",
+              "name": "len2"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_424_initial.c",
+      "preferred_function": "ExtractRearChars",
+      "public_functions": [
+        {
+          "name": "ExtractRearChars",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "char*",
+              "name": "l[]"
+            },
+            {
+              "type": "int",
+              "name": "str_lens[]"
+            },
+            {
+              "type": "int",
+              "name": "l_len"
+            },
+            {
+              "type": "char",
+              "name": "r[]"
+            },
+            {
+              "type": "int *",
+              "name": "r_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_426_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FilterOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "oddList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_430_initial.c",
+      "preferred_function": "ParabolaDirectrix",
+      "public_functions": [
+        {
+          "name": "ParabolaDirectrix",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "a"
+            },
+            {
+              "type": "double",
+              "name": "h"
+            },
+            {
+              "type": "double",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_431_initial.c",
+      "preferred_function": "HasCommonElement",
+      "public_functions": [
+        {
+          "name": "HasCommonElement",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_432_initial.c",
+      "preferred_function": "MedianLength",
+      "public_functions": [
+        {
+          "name": "MedianLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_433_initial.c",
+      "preferred_function": "IsGreater",
+      "public_functions": [
+        {
+          "name": "IsGreater",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_435_initial.c",
+      "preferred_function": "LastDigit",
+      "public_functions": [
+        {
+          "name": "LastDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_436_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsNegative",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindNegativeNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int *",
+              "name": "negativeList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_441_initial.c",
+      "preferred_function": "CubeSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CubeSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_445_initial.c",
+      "preferred_function": "MultiplyElements",
+      "public_functions": [
+        {
+          "name": "MultiplyElements",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_447_initial.c",
+      "preferred_function": "CubeElements",
+      "public_functions": [
+        {
+          "name": "CubeElements",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "IntArray *",
+              "name": "a"
+            },
+            {
+              "type": "IntArray *",
+              "name": "cubed"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_452_initial.c",
+      "preferred_function": "CalculateLoss",
+      "public_functions": [
+        {
+          "name": "CalculateLoss",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "costPrice"
+            },
+            {
+              "type": "int",
+              "name": "sellingPrice"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_454_initial.c",
+      "preferred_function": "ContainsZ",
+      "public_functions": [
+        {
+          "name": "ContainsZ",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_455_initial.c",
+      "preferred_function": "MonthHas31Days",
+      "public_functions": [
+        {
+          "name": "MonthHas31Days",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "month"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_457_initial.c",
+      "preferred_function": "MinLengthSublist",
+      "public_functions": [
+        {
+          "name": "MinLengthSublist",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "s_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_458_initial.c",
+      "preferred_function": "RectangleArea",
+      "public_functions": [
+        {
+          "name": "RectangleArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "width"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_460_initial.c",
+      "preferred_function": "GetFirstElements",
+      "public_functions": [
+        {
+          "name": "GetFirstElements",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeqSeq",
+              "name": "lst"
+            },
+            {
+              "type": "int *",
+              "name": "result_buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_461_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountUppercase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_470_initial.c",
+      "preferred_function": "PairwiseAddition",
+      "public_functions": [
+        {
+          "name": "PairwiseAddition",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_472_initial.c",
+      "preferred_function": "ContainsConsecutiveNumbers",
+      "public_functions": [
+        {
+          "name": "ContainsConsecutiveNumbers",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_474_initial.c",
+      "preferred_function": "ReplaceChars",
+      "public_functions": [
+        {
+          "name": "ReplaceChars",
+          "return_type": "String",
+          "params": [
+            {
+              "type": "String",
+              "name": "s"
+            },
+            {
+              "type": "char",
+              "name": "oldChar"
+            },
+            {
+              "type": "char",
+              "name": "newChar"
+            },
+            {
+              "type": "char *",
+              "name": "out_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_476_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumMinMax",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_477_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperLowerPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "C"
+            },
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Shift32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_554_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "oddList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_555_initial.c",
+      "preferred_function": "DifferenceSumCubesAndSumNumbers",
+      "public_functions": [
+        {
+          "name": "DifferenceSumCubesAndSumNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_557_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsLowerCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsLowerUpperPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            },
+            {
+              "type": "unsigned char",
+              "name": "C"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperLowerPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "C"
+            },
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ShiftMinus32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Shift32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ToggleCase",
+          "return_type": "size_t",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            },
+            {
+              "type": "unsigned char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_565_initial.c",
+      "preferred_function": "SplitStringIntoChars",
+      "public_functions": [
+        {
+          "name": "SplitStringIntoChars",
+          "return_type": "CharSeq",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_567_initial.c",
+      "preferred_function": "IsSorted",
+      "public_functions": [
+        {
+          "name": "IsSorted",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_572_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains_prefix",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "value"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveDuplicates",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_574_initial.c",
+      "preferred_function": "CylinderSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CylinderSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_576_initial.c",
+      "preferred_function": "IsSublist",
+      "public_functions": [
+        {
+          "name": "IsSublist",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "sub"
+            },
+            {
+              "type": "int",
+              "name": "sub_len"
+            },
+            {
+              "type": "int *",
+              "name": "main_arr"
+            },
+            {
+              "type": "int",
+              "name": "main_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_577_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Factorial",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FactorialOfLastDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_578_initial.c",
+      "preferred_function": "Interleave",
+      "public_functions": [
+        {
+          "name": "Interleave",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s1"
+            },
+            {
+              "type": "int *",
+              "name": "s2"
+            },
+            {
+              "type": "int *",
+              "name": "s3"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_579_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "DissimilarElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "result_capacity"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_57_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "digit_count_int",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "int_to_decimal",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            },
+            {
+              "type": "char *",
+              "name": "buf"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "concat_cmp",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "la"
+            },
+            {
+              "type": "char *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "lb"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "largestNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "nums"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char *",
+              "name": "out"
+            },
+            {
+              "type": "int",
+              "name": "out_cap"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_581_initial.c",
+      "preferred_function": "SquarePyramidSurfaceArea",
+      "public_functions": [
+        {
+          "name": "SquarePyramidSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "baseEdge"
+            },
+            {
+              "type": "int",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_586_initial.c",
+      "preferred_function": "SplitAndAppend",
+      "public_functions": [
+        {
+          "name": "SplitAndAppend",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_587_initial.c",
+      "preferred_function": "ArrayToSeq",
+      "public_functions": [
+        {
+          "name": "ArrayToSeq",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "s"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_588_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "DifferenceMinMax",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_58_initial.c",
+      "preferred_function": "HasOppositeSign",
+      "public_functions": [
+        {
+          "name": "HasOppositeSign",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_591_initial.c",
+      "preferred_function": "SwapFirstAndLast",
+      "public_functions": [
+        {
+          "name": "SwapFirstAndLast",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_594_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FirstEvenOddDifference",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_598_initial.c",
+      "preferred_function": "IsArmstrong",
+      "public_functions": [
+        {
+          "name": "IsArmstrong",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_599_initial.c",
+      "preferred_function": "SumAndAverage",
+      "public_functions": [
+        {
+          "name": "SumAndAverage",
+          "return_type": "SumAndAverageResult",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_59_initial.c",
+      "preferred_function": "NthOctagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthOctagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_600_initial.c",
+      "preferred_function": "IsEven",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_602_initial.c",
+      "preferred_function": "FindFirstRepeatedChar",
+      "public_functions": [
+        {
+          "name": "FindFirstRepeatedChar",
+          "return_type": "FindFirstRepeatedChar_result",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_603_initial.c",
+      "preferred_function": "LucidNumbers",
+      "public_functions": [
+        {
+          "name": "LucidNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "lucid"
+            },
+            {
+              "type": "int",
+              "name": "capacity"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_605_initial.c",
+      "preferred_function": "IsPrime",
+      "public_functions": [
+        {
+          "name": "IsPrime",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_606_initial.c",
+      "preferred_function": "DegreesToRadians",
+      "public_functions": [
+        {
+          "name": "DegreesToRadians",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "degrees"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_610_initial.c",
+      "preferred_function": "RemoveElement",
+      "public_functions": [
+        {
+          "name": "RemoveElement",
+          "return_type": "IntArray",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            },
+            {
+              "type": "int *",
+              "name": "out"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_616_initial.c",
+      "preferred_function": "",
+      "public_functions": []
+    },
+    {
+      "file": "task_id_618_initial.c",
+      "preferred_function": "ElementWiseDivide",
+      "public_functions": [
+        {
+          "name": "ElementWiseDivide",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_61_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountSubstringsWithSumOfDigitsEqualToLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_622_initial.c",
+      "preferred_function": "FindMedian",
+      "public_functions": [
+        {
+          "name": "FindMedian",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_623_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Power",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "base"
+            },
+            {
+              "type": "int",
+              "name": "exponent"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "PowerOfListElements",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result_buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_624_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsLowerCase",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsLowerUpperPair",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            },
+            {
+              "type": "unsigned char",
+              "name": "C"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ShiftMinus32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ToUppercase",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            },
+            {
+              "type": "unsigned char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_625_initial.c",
+      "preferred_function": "SwapFirstAndLast",
+      "public_functions": [
+        {
+          "name": "SwapFirstAndLast",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_626_initial.c",
+      "preferred_function": "AreaOfLargestTriangleInSemicircle",
+      "public_functions": [
+        {
+          "name": "AreaOfLargestTriangleInSemicircle",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_627_initial.c",
+      "preferred_function": "SmallestMissingNumber",
+      "public_functions": [
+        {
+          "name": "SmallestMissingNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_629_initial.c",
+      "preferred_function": "FindEvenNumbers",
+      "public_functions": [
+        {
+          "name": "FindEvenNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int *",
+              "name": "out"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_62_initial.c",
+      "preferred_function": "FindSmallest",
+      "public_functions": [
+        {
+          "name": "FindSmallest",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_637_initial.c",
+      "preferred_function": "IsBreakEven",
+      "public_functions": [
+        {
+          "name": "IsBreakEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "costPrice"
+            },
+            {
+              "type": "int",
+              "name": "sellingPrice"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_641_initial.c",
+      "preferred_function": "NthNonagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthNonagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_644_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Reverse",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ReverseUptoK",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_69_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "seq_equal",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "IntSeq",
+              "name": "a"
+            },
+            {
+              "type": "IntSeq",
+              "name": "b"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ContainsSequence",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "list"
+            },
+            {
+              "type": "int",
+              "name": "list_len"
+            },
+            {
+              "type": "IntSeq",
+              "name": "sub"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_70_initial.c",
+      "preferred_function": "AllSequencesEqualLength",
+      "public_functions": [
+        {
+          "name": "AllSequencesEqualLength",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "sequence_lengths"
+            },
+            {
+              "type": "int",
+              "name": "sequences_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_728_initial.c",
+      "preferred_function": "AddLists",
+      "public_functions": [
+        {
+          "name": "AddLists",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_732_initial.c",
+      "preferred_function": "IsSpaceCommaDot",
+      "public_functions": [
+        {
+          "name": "IsSpaceCommaDot",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_733_initial.c",
+      "preferred_function": "FindFirstOccurrence",
+      "public_functions": [
+        {
+          "name": "FindFirstOccurrence",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "target"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_741_initial.c",
+      "preferred_function": "AllCharactersSame",
+      "public_functions": [
+        {
+          "name": "AllCharactersSame",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_743_initial.c",
+      "preferred_function": "RotateRight",
+      "public_functions": [
+        {
+          "name": "RotateRight",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_750_initial.c",
+      "preferred_function": "AddTupleToList",
+      "public_functions": [
+        {
+          "name": "AddTupleToList",
+          "return_type": "PairSeq",
+          "params": [
+            {
+              "type": "Pair *",
+              "name": "l"
+            },
+            {
+              "type": "size_t",
+              "name": "l_len"
+            },
+            {
+              "type": "Pair",
+              "name": "t"
+            },
+            {
+              "type": "Pair *",
+              "name": "r_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_751_initial.c",
+      "preferred_function": "IsMinHeap",
+      "public_functions": [
+        {
+          "name": "IsMinHeap",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_755_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MinPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SecondSmallest",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "s[i] <",
+              "name": "s[secondMinIndex]"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_759_initial.c",
+      "preferred_function": "IsDecimalWithTwoPrecision",
+      "public_functions": [
+        {
+          "name": "IsDecimalWithTwoPrecision",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_760_initial.c",
+      "preferred_function": "HasOnlyOneDistinctElement",
+      "public_functions": [
+        {
+          "name": "HasOnlyOneDistinctElement",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_762_initial.c",
+      "preferred_function": "IsMonthWith30Days",
+      "public_functions": [
+        {
+          "name": "IsMonthWith30Days",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "month"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_764_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountDigits",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_769_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Difference",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "diff"
+            },
+            {
+              "type": "int *",
+              "name": "diff_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_770_initial.c",
+      "preferred_function": "SumOfFourthPowerOfOddNumbers",
+      "public_functions": [
+        {
+          "name": "SumOfFourthPowerOfOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_775_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsOddAtIndexOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_776_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsVowel",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountVowelNeighbors",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_77_initial.c",
+      "preferred_function": "IsDivisibleBy11",
+      "public_functions": [
+        {
+          "name": "IsDivisibleBy11",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_784_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "FirstEvenOddIndices",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int *",
+              "name": "evenIndex"
+            },
+            {
+              "type": "int *",
+              "name": "oddIndex"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ProductEvenOdd",
+          "return_type": "long long",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_790_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsEvenAtIndexEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_792_initial.c",
+      "preferred_function": "CountLists",
+      "public_functions": [
+        {
+          "name": "CountLists",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "IntSeqSeq *",
+              "name": "lists"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_793_initial.c",
+      "preferred_function": "LastPosition",
+      "public_functions": [
+        {
+          "name": "LastPosition",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "elem"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_798_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ArraySum",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_799_initial.c",
+      "preferred_function": "RotateLeftBits",
+      "public_functions": [
+        {
+          "name": "RotateLeftBits",
+          "return_type": "uint32_t",
+          "params": [
+            {
+              "type": "uint32_t",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "d"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_79_initial.c",
+      "preferred_function": "IsLengthOdd",
+      "public_functions": [
+        {
+          "name": "IsLengthOdd",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_801_initial.c",
+      "preferred_function": "CountEqualNumbers",
+      "public_functions": [
+        {
+          "name": "CountEqualNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_803_initial.c",
+      "preferred_function": "IsPerfectSquare",
+      "public_functions": [
+        {
+          "name": "IsPerfectSquare",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_804_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsProductEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_807_initial.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindFirstOdd",
+          "return_type": "FindFirstOdd_result",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_808_initial.c",
+      "preferred_function": "ContainsK",
+      "public_functions": [
+        {
+          "name": "ContainsK",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_809_initial.c",
+      "preferred_function": "IsSmaller",
+      "public_functions": [
+        {
+          "name": "IsSmaller",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_80_initial.c",
+      "preferred_function": "TetrahedralNumber",
+      "public_functions": [
+        {
+          "name": "TetrahedralNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_82_initial.c",
+      "preferred_function": "SphereVolume",
+      "public_functions": [
+        {
+          "name": "SphereVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_85_initial.c",
+      "preferred_function": "SphereSurfaceArea",
+      "public_functions": [
+        {
+          "name": "SphereSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_86_initial.c",
+      "preferred_function": "CenteredHexagonalNumber",
+      "public_functions": [
+        {
+          "name": "CenteredHexagonalNumber",
+          "return_type": "long long",
+          "params": [
+            {
+              "type": "long long",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_89_initial.c",
+      "preferred_function": "ClosestSmaller",
+      "public_functions": [
+        {
+          "name": "ClosestSmaller",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_94_initial.c",
+      "preferred_function": "MinSecondValueFirst",
+      "public_functions": [
+        {
+          "name": "MinSecondValueFirst",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_95_initial.c",
+      "preferred_function": "SmallestListLength",
+      "public_functions": [
+        {
+          "name": "SmallestListLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lengths"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_105.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "countTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "bool *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountTrue",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "bool *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_133.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumNegativesTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumOfNegatives",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_139.c",
+      "preferred_function": "CircleCircumference",
+      "public_functions": [
+        {
+          "name": "CircleCircumference",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_142.c",
+      "preferred_function": "CountIdenticalPositions",
+      "public_functions": [
+        {
+          "name": "CountIdenticalPositions",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "c"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_170.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_length"
+            },
+            {
+              "type": "int",
+              "name": "start"
+            },
+            {
+              "type": "int",
+              "name": "end"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumInRange",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_length"
+            },
+            {
+              "type": "int",
+              "name": "start"
+            },
+            {
+              "type": "int",
+              "name": "end"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_18.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveChars",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s1"
+            },
+            {
+              "type": "int",
+              "name": "n1"
+            },
+            {
+              "type": "char *",
+              "name": "s2"
+            },
+            {
+              "type": "int",
+              "name": "n2"
+            },
+            {
+              "type": "char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_2.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SharedElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_233.c",
+      "preferred_function": "CylinderLateralSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CylinderLateralSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_276.c",
+      "preferred_function": "CylinderVolume",
+      "public_functions": [
+        {
+          "name": "CylinderVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_312.c",
+      "preferred_function": "ConeVolume",
+      "public_functions": [
+        {
+          "name": "ConeVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_412.c",
+      "preferred_function": "RemoveOddNumbers",
+      "public_functions": [
+        {
+          "name": "RemoveOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int *",
+              "name": "evenList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_430.c",
+      "preferred_function": "ParabolaDirectrix",
+      "public_functions": [
+        {
+          "name": "ParabolaDirectrix",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "a"
+            },
+            {
+              "type": "double",
+              "name": "h"
+            },
+            {
+              "type": "double",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_461.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountUppercase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_476.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SumMinMax",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_574.c",
+      "preferred_function": "CylinderSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CylinderSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            },
+            {
+              "type": "double",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_577.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Factorial",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FactorialOfLastDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_579.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "DissimilarElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "result_capacity"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_588.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "DifferenceMinMax",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_599.c",
+      "preferred_function": "SumAndAverage",
+      "public_functions": [
+        {
+          "name": "SumAndAverage",
+          "return_type": "SumAndAverageResult",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_606.c",
+      "preferred_function": "DegreesToRadians",
+      "public_functions": [
+        {
+          "name": "DegreesToRadians",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "degrees"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_616.c",
+      "preferred_function": "",
+      "public_functions": []
+    },
+    {
+      "file": "task_id_623.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Power",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "base"
+            },
+            {
+              "type": "int",
+              "name": "exponent"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "PowerOfListElements",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result_buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_627.c",
+      "preferred_function": "SmallestMissingNumber",
+      "public_functions": [
+        {
+          "name": "SmallestMissingNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_644.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "Reverse",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ReverseUptoK",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_743.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "dafny_mod_ll",
+          "return_type": "else static int",
+          "params": [
+            {
+              "type": "long long",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "m"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RotateRight",
+          "return_type": "endif int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_755.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MinPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "SecondSmallest",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_764.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountDigits",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_769.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Difference",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "diff"
+            },
+            {
+              "type": "int *",
+              "name": "diff_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_798.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "sumTo",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ArraySum",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_82.c",
+      "preferred_function": "SphereVolume",
+      "public_functions": [
+        {
+          "name": "SphereVolume",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_85.c",
+      "preferred_function": "SphereSurfaceArea",
+      "public_functions": [
+        {
+          "name": "SphereSurfaceArea",
+          "return_type": "double",
+          "params": [
+            {
+              "type": "double",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_101.c",
+      "preferred_function": "KthElement",
+      "public_functions": [
+        {
+          "name": "KthElement",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_106.c",
+      "preferred_function": "AppendArrayToSeq",
+      "public_functions": [
+        {
+          "name": "AppendArrayToSeq",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            },
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_113.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsInteger",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_126.c",
+      "preferred_function": "SumOfCommonDivisors",
+      "public_functions": [
+        {
+          "name": "SumOfCommonDivisors",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_127.c",
+      "preferred_function": "Multiply",
+      "public_functions": [
+        {
+          "name": "Multiply",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_135.c",
+      "preferred_function": "NthHexagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthHexagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_14.c",
+      "preferred_function": "TriangularPrismVolume",
+      "public_functions": [
+        {
+          "name": "TriangularPrismVolume",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "base"
+            },
+            {
+              "type": "int",
+              "name": "height"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_143.c",
+      "preferred_function": "CountArrays",
+      "public_functions": [
+        {
+          "name": "CountArrays",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "IntArray *",
+              "name": "arrays"
+            },
+            {
+              "type": "int",
+              "name": "arrays_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_145.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MaxDifference",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "a[i] >",
+              "name": "maxVal"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_161.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveElements",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_17.c",
+      "preferred_function": "SquarePerimeter",
+      "public_functions": [
+        {
+          "name": "SquarePerimeter",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "side"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_171.c",
+      "preferred_function": "PentagonPerimeter",
+      "public_functions": [
+        {
+          "name": "PentagonPerimeter",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "side"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_227.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "MinOfThree",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "if",
+          "return_type": "else",
+          "params": [
+            {
+              "type": "b <= a && b <=",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_230.c",
+      "preferred_function": "ReplaceBlanksWithChar",
+      "public_functions": [
+        {
+          "name": "ReplaceBlanksWithChar",
+          "return_type": "String",
+          "params": [
+            {
+              "type": "String",
+              "name": "s"
+            },
+            {
+              "type": "char",
+              "name": "ch"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_234.c",
+      "preferred_function": "CubeVolume",
+      "public_functions": [
+        {
+          "name": "CubeVolume",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_238.c",
+      "preferred_function": "CountNonEmptySubstrings",
+      "public_functions": [
+        {
+          "name": "CountNonEmptySubstrings",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_240.c",
+      "preferred_function": "ReplaceLastElement",
+      "public_functions": [
+        {
+          "name": "ReplaceLastElement",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "first"
+            },
+            {
+              "type": "int",
+              "name": "first_len"
+            },
+            {
+              "type": "int *",
+              "name": "second"
+            },
+            {
+              "type": "int",
+              "name": "second_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_242.c",
+      "preferred_function": "CountCharacters",
+      "public_functions": [
+        {
+          "name": "CountCharacters",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "DafnyString",
+              "name": "s"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_249.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "InArray",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Intersection",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_251.c",
+      "preferred_function": "InsertBeforeEach",
+      "public_functions": [
+        {
+          "name": "InsertBeforeEach",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char* *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            },
+            {
+              "type": "char *",
+              "name": "x"
+            },
+            {
+              "type": "char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_257.c",
+      "preferred_function": "Swap",
+      "public_functions": [
+        {
+          "name": "Swap",
+          "return_type": "IntSeq2",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_261.c",
+      "preferred_function": "ElementWiseDivision",
+      "public_functions": [
+        {
+          "name": "ElementWiseDivision",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_262.c",
+      "preferred_function": "SplitArray",
+      "public_functions": [
+        {
+          "name": "SplitArray",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int",
+              "name": "L"
+            },
+            {
+              "type": "int *",
+              "name": "firstPart"
+            },
+            {
+              "type": "int *",
+              "name": "firstPart_len"
+            },
+            {
+              "type": "int *",
+              "name": "secondPart"
+            },
+            {
+              "type": "int *",
+              "name": "secondPart_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_264.c",
+      "preferred_function": "DogYears",
+      "public_functions": [
+        {
+          "name": "DogYears",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "humanYears"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_266.c",
+      "preferred_function": "LateralSurfaceArea",
+      "public_functions": [
+        {
+          "name": "LateralSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_267.c",
+      "preferred_function": "SumOfSquaresOfFirstNOddNumbers",
+      "public_functions": [
+        {
+          "name": "SumOfSquaresOfFirstNOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_268.c",
+      "preferred_function": "StarNumber",
+      "public_functions": [
+        {
+          "name": "StarNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_269.c",
+      "preferred_function": "AsciiValue",
+      "public_functions": [
+        {
+          "name": "AsciiValue",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_273.c",
+      "preferred_function": "SubtractSequences",
+      "public_functions": [
+        {
+          "name": "SubtractSequences",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_279.c",
+      "preferred_function": "NthDecagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthDecagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_282.c",
+      "preferred_function": "ElementWiseSubtraction",
+      "public_functions": [
+        {
+          "name": "ElementWiseSubtraction",
+          "return_type": "IntArray",
+          "params": [
+            {
+              "type": "IntArray",
+              "name": "a"
+            },
+            {
+              "type": "IntArray",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_284.c",
+      "preferred_function": "AllElementsEqual",
+      "public_functions": [
+        {
+          "name": "AllElementsEqual",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_290.c",
+      "preferred_function": "MaxLengthList",
+      "public_functions": [
+        {
+          "name": "MaxLengthList",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "lists"
+            },
+            {
+              "type": "size_t",
+              "name": "lists_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_292.c",
+      "preferred_function": "Quotient",
+      "public_functions": [
+        {
+          "name": "Quotient",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_3.c",
+      "preferred_function": "IsNonPrime",
+      "public_functions": [
+        {
+          "name": "IsNonPrime",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_304.c",
+      "preferred_function": "ElementAtIndexAfterRotation",
+      "public_functions": [
+        {
+          "name": "ElementAtIndexAfterRotation",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "index"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_307.c",
+      "preferred_function": "",
+      "public_functions": []
+    },
+    {
+      "file": "task_id_309.c",
+      "preferred_function": "Max",
+      "public_functions": [
+        {
+          "name": "Max",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_310.c",
+      "preferred_function": "ToCharArray",
+      "public_functions": [
+        {
+          "name": "ToCharArray",
+          "return_type": "CharArray",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_396.c",
+      "preferred_function": "StartAndEndWithSameChar",
+      "public_functions": [
+        {
+          "name": "StartAndEndWithSameChar",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_397.c",
+      "preferred_function": "MedianOfThree",
+      "public_functions": [
+        {
+          "name": "MedianOfThree",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_399.c",
+      "preferred_function": "BitwiseXOR",
+      "public_functions": [
+        {
+          "name": "BitwiseXOR",
+          "return_type": "size_t",
+          "params": [
+            {
+              "type": "uint32_t *",
+              "name": "a"
+            },
+            {
+              "type": "size_t",
+              "name": "a_len"
+            },
+            {
+              "type": "uint32_t *",
+              "name": "b"
+            },
+            {
+              "type": "size_t",
+              "name": "b_len"
+            },
+            {
+              "type": "uint32_t *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_401.c",
+      "preferred_function": "IndexWiseAddition",
+      "public_functions": [
+        {
+          "name": "IndexWiseAddition",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int *",
+              "name": "row_offsets"
+            },
+            {
+              "type": "int",
+              "name": "rows"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_404.c",
+      "preferred_function": "Min",
+      "public_functions": [
+        {
+          "name": "Min",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_406.c",
+      "preferred_function": "IsOdd",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_414.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "ContainsValue",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "value"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "AnyValueExists",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "seq1"
+            },
+            {
+              "type": "int",
+              "name": "len1"
+            },
+            {
+              "type": "int *",
+              "name": "seq2"
+            },
+            {
+              "type": "int",
+              "name": "len2"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_424.c",
+      "preferred_function": "ExtractRearChars",
+      "public_functions": [
+        {
+          "name": "ExtractRearChars",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "char*",
+              "name": "l[]"
+            },
+            {
+              "type": "int",
+              "name": "str_lens[]"
+            },
+            {
+              "type": "int",
+              "name": "l_len"
+            },
+            {
+              "type": "char",
+              "name": "r[]"
+            },
+            {
+              "type": "int *",
+              "name": "r_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_426.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FilterOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "oddList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_431.c",
+      "preferred_function": "HasCommonElement",
+      "public_functions": [
+        {
+          "name": "HasCommonElement",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_432.c",
+      "preferred_function": "MedianLength",
+      "public_functions": [
+        {
+          "name": "MedianLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_433.c",
+      "preferred_function": "IsGreater",
+      "public_functions": [
+        {
+          "name": "IsGreater",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_435.c",
+      "preferred_function": "LastDigit",
+      "public_functions": [
+        {
+          "name": "LastDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_436.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsNegative",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindNegativeNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int *",
+              "name": "negativeList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_441.c",
+      "preferred_function": "CubeSurfaceArea",
+      "public_functions": [
+        {
+          "name": "CubeSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "size"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_445.c",
+      "preferred_function": "MultiplyElements",
+      "public_functions": [
+        {
+          "name": "MultiplyElements",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_447.c",
+      "preferred_function": "CubeElements",
+      "public_functions": [
+        {
+          "name": "CubeElements",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "IntArray *",
+              "name": "a"
+            },
+            {
+              "type": "IntArray *",
+              "name": "cubed"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_452.c",
+      "preferred_function": "CalculateLoss",
+      "public_functions": [
+        {
+          "name": "CalculateLoss",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "costPrice"
+            },
+            {
+              "type": "int",
+              "name": "sellingPrice"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_454.c",
+      "preferred_function": "ContainsZ",
+      "public_functions": [
+        {
+          "name": "ContainsZ",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_455.c",
+      "preferred_function": "MonthHas31Days",
+      "public_functions": [
+        {
+          "name": "MonthHas31Days",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "month"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_457.c",
+      "preferred_function": "MinLengthSublist",
+      "public_functions": [
+        {
+          "name": "MinLengthSublist",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "s_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_458.c",
+      "preferred_function": "RectangleArea",
+      "public_functions": [
+        {
+          "name": "RectangleArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "width"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_460.c",
+      "preferred_function": "GetFirstElements",
+      "public_functions": [
+        {
+          "name": "GetFirstElements",
+          "return_type": "IntSeq",
+          "params": [
+            {
+              "type": "IntSeqSeq",
+              "name": "lst"
+            },
+            {
+              "type": "int *",
+              "name": "result_buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_470.c",
+      "preferred_function": "PairwiseAddition",
+      "public_functions": [
+        {
+          "name": "PairwiseAddition",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_472.c",
+      "preferred_function": "ContainsConsecutiveNumbers",
+      "public_functions": [
+        {
+          "name": "ContainsConsecutiveNumbers",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_474.c",
+      "preferred_function": "ReplaceChars",
+      "public_functions": [
+        {
+          "name": "ReplaceChars",
+          "return_type": "String",
+          "params": [
+            {
+              "type": "String",
+              "name": "s"
+            },
+            {
+              "type": "char",
+              "name": "oldChar"
+            },
+            {
+              "type": "char",
+              "name": "newChar"
+            },
+            {
+              "type": "char *",
+              "name": "out_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_477.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperLowerPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "C"
+            },
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Shift32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_554.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "oddList"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_555.c",
+      "preferred_function": "DifferenceSumCubesAndSumNumbers",
+      "public_functions": [
+        {
+          "name": "DifferenceSumCubesAndSumNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_557.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsLowerCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperCase",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsLowerUpperPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            },
+            {
+              "type": "unsigned char",
+              "name": "C"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsUpperLowerPair",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "C"
+            },
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ShiftMinus32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "Shift32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ToggleCase",
+          "return_type": "size_t",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            },
+            {
+              "type": "unsigned char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_565.c",
+      "preferred_function": "SplitStringIntoChars",
+      "public_functions": [
+        {
+          "name": "SplitStringIntoChars",
+          "return_type": "CharSeq",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            },
+            {
+              "type": "char *",
+              "name": "buffer"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_567.c",
+      "preferred_function": "IsSorted",
+      "public_functions": [
+        {
+          "name": "IsSorted",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_57.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "digit_count_int",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "int_to_decimal",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            },
+            {
+              "type": "char *",
+              "name": "buf"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "concat_cmp",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "la"
+            },
+            {
+              "type": "char *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "lb"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "largestNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "nums"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "char *",
+              "name": "out"
+            },
+            {
+              "type": "int",
+              "name": "out_cap"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_572.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "contains_prefix",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "value"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "RemoveDuplicates",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_576.c",
+      "preferred_function": "IsSublist",
+      "public_functions": [
+        {
+          "name": "IsSublist",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "sub"
+            },
+            {
+              "type": "int",
+              "name": "sub_len"
+            },
+            {
+              "type": "int *",
+              "name": "main_arr"
+            },
+            {
+              "type": "int",
+              "name": "main_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_578.c",
+      "preferred_function": "Interleave",
+      "public_functions": [
+        {
+          "name": "Interleave",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s1"
+            },
+            {
+              "type": "int *",
+              "name": "s2"
+            },
+            {
+              "type": "int *",
+              "name": "s3"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_58.c",
+      "preferred_function": "HasOppositeSign",
+      "public_functions": [
+        {
+          "name": "HasOppositeSign",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_581.c",
+      "preferred_function": "SquarePyramidSurfaceArea",
+      "public_functions": [
+        {
+          "name": "SquarePyramidSurfaceArea",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "baseEdge"
+            },
+            {
+              "type": "int",
+              "name": "height"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_586.c",
+      "preferred_function": "SplitAndAppend",
+      "public_functions": [
+        {
+          "name": "SplitAndAppend",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "l"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "r"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_587.c",
+      "preferred_function": "ArrayToSeq",
+      "public_functions": [
+        {
+          "name": "ArrayToSeq",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "s"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_59.c",
+      "preferred_function": "NthOctagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthOctagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_591.c",
+      "preferred_function": "SwapFirstAndLast",
+      "public_functions": [
+        {
+          "name": "SwapFirstAndLast",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_594.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FirstEvenOddDifference",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_598.c",
+      "preferred_function": "IsArmstrong",
+      "public_functions": [
+        {
+          "name": "IsArmstrong",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_600.c",
+      "preferred_function": "IsEven",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_602.c",
+      "preferred_function": "FindFirstRepeatedChar",
+      "public_functions": [
+        {
+          "name": "FindFirstRepeatedChar",
+          "return_type": "FindFirstRepeatedChar_result",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_603.c",
+      "preferred_function": "LucidNumbers",
+      "public_functions": [
+        {
+          "name": "LucidNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "lucid"
+            },
+            {
+              "type": "int",
+              "name": "capacity"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_605.c",
+      "preferred_function": "IsPrime",
+      "public_functions": [
+        {
+          "name": "IsPrime",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_61.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsDigit",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountSubstringsWithSumOfDigitsEqualToLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_610.c",
+      "preferred_function": "RemoveElement",
+      "public_functions": [
+        {
+          "name": "RemoveElement",
+          "return_type": "IntArray",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            },
+            {
+              "type": "int *",
+              "name": "out"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_618.c",
+      "preferred_function": "ElementWiseDivide",
+      "public_functions": [
+        {
+          "name": "ElementWiseDivide",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_62.c",
+      "preferred_function": "FindSmallest",
+      "public_functions": [
+        {
+          "name": "FindSmallest",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_622.c",
+      "preferred_function": "FindMedian",
+      "public_functions": [
+        {
+          "name": "FindMedian",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "a_len"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "b_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_624.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsLowerCase",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsLowerUpperPair",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            },
+            {
+              "type": "unsigned char",
+              "name": "C"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ShiftMinus32",
+          "return_type": "unsigned char",
+          "params": [
+            {
+              "type": "unsigned char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ToUppercase",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "unsigned char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "n"
+            },
+            {
+              "type": "unsigned char *",
+              "name": "v"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_625.c",
+      "preferred_function": "SwapFirstAndLast",
+      "public_functions": [
+        {
+          "name": "SwapFirstAndLast",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_626.c",
+      "preferred_function": "AreaOfLargestTriangleInSemicircle",
+      "public_functions": [
+        {
+          "name": "AreaOfLargestTriangleInSemicircle",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "radius"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_629.c",
+      "preferred_function": "FindEvenNumbers",
+      "public_functions": [
+        {
+          "name": "FindEvenNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "arr_len"
+            },
+            {
+              "type": "int *",
+              "name": "out"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_637.c",
+      "preferred_function": "IsBreakEven",
+      "public_functions": [
+        {
+          "name": "IsBreakEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "costPrice"
+            },
+            {
+              "type": "int",
+              "name": "sellingPrice"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_641.c",
+      "preferred_function": "NthNonagonalNumber",
+      "public_functions": [
+        {
+          "name": "NthNonagonalNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_69.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "seq_equal",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "IntSeq",
+              "name": "a"
+            },
+            {
+              "type": "IntSeq",
+              "name": "b"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ContainsSequence",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "IntSeq *",
+              "name": "list"
+            },
+            {
+              "type": "int",
+              "name": "list_len"
+            },
+            {
+              "type": "IntSeq",
+              "name": "sub"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_70.c",
+      "preferred_function": "AllSequencesEqualLength",
+      "public_functions": [
+        {
+          "name": "AllSequencesEqualLength",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "sequence_lengths"
+            },
+            {
+              "type": "int",
+              "name": "sequences_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_728.c",
+      "preferred_function": "AddLists",
+      "public_functions": [
+        {
+          "name": "AddLists",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int *",
+              "name": "result"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_732.c",
+      "preferred_function": "IsSpaceCommaDot",
+      "public_functions": [
+        {
+          "name": "IsSpaceCommaDot",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_733.c",
+      "preferred_function": "FindFirstOccurrence",
+      "public_functions": [
+        {
+          "name": "FindFirstOccurrence",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "target"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_741.c",
+      "preferred_function": "AllCharactersSame",
+      "public_functions": [
+        {
+          "name": "AllCharactersSame",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_750.c",
+      "preferred_function": "AddTupleToList",
+      "public_functions": [
+        {
+          "name": "AddTupleToList",
+          "return_type": "PairSeq",
+          "params": [
+            {
+              "type": "Pair *",
+              "name": "l"
+            },
+            {
+              "type": "size_t",
+              "name": "l_len"
+            },
+            {
+              "type": "Pair",
+              "name": "t"
+            },
+            {
+              "type": "Pair *",
+              "name": "r_data"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_751.c",
+      "preferred_function": "IsMinHeap",
+      "public_functions": [
+        {
+          "name": "IsMinHeap",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_759.c",
+      "preferred_function": "IsDecimalWithTwoPrecision",
+      "public_functions": [
+        {
+          "name": "IsDecimalWithTwoPrecision",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_760.c",
+      "preferred_function": "HasOnlyOneDistinctElement",
+      "public_functions": [
+        {
+          "name": "HasOnlyOneDistinctElement",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_762.c",
+      "preferred_function": "IsMonthWith30Days",
+      "public_functions": [
+        {
+          "name": "IsMonthWith30Days",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "month"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_77.c",
+      "preferred_function": "IsDivisibleBy11",
+      "public_functions": [
+        {
+          "name": "IsDivisibleBy11",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_770.c",
+      "preferred_function": "SumOfFourthPowerOfOddNumbers",
+      "public_functions": [
+        {
+          "name": "SumOfFourthPowerOfOddNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_775.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsOddAtIndexOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_776.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsVowel",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char",
+              "name": "c"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "CountVowelNeighbors",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_784.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "FirstEvenOddIndices",
+          "return_type": "void",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            },
+            {
+              "type": "int *",
+              "name": "evenIndex"
+            },
+            {
+              "type": "int *",
+              "name": "oddIndex"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "ProductEvenOdd",
+          "return_type": "long long",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_79.c",
+      "preferred_function": "IsLengthOdd",
+      "public_functions": [
+        {
+          "name": "IsLengthOdd",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "char *",
+              "name": "s"
+            },
+            {
+              "type": "size_t",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_790.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsEvenAtIndexEven",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lst"
+            },
+            {
+              "type": "int",
+              "name": "len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_792.c",
+      "preferred_function": "CountLists",
+      "public_functions": [
+        {
+          "name": "CountLists",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "IntSeqSeq *",
+              "name": "lists"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_793.c",
+      "preferred_function": "LastPosition",
+      "public_functions": [
+        {
+          "name": "LastPosition",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "arr"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            },
+            {
+              "type": "int",
+              "name": "elem"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_799.c",
+      "preferred_function": "RotateLeftBits",
+      "public_functions": [
+        {
+          "name": "RotateLeftBits",
+          "return_type": "uint32_t",
+          "params": [
+            {
+              "type": "uint32_t",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "d"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_80.c",
+      "preferred_function": "TetrahedralNumber",
+      "public_functions": [
+        {
+          "name": "TetrahedralNumber",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_801.c",
+      "preferred_function": "CountEqualNumbers",
+      "public_functions": [
+        {
+          "name": "CountEqualNumbers",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "c"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_803.c",
+      "preferred_function": "IsPerfectSquare",
+      "public_functions": [
+        {
+          "name": "IsPerfectSquare",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_804.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "IsProductEven",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "length"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_807.c",
+      "preferred_function": "",
+      "public_functions": [
+        {
+          "name": "IsOdd",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "x"
+            }
+          ],
+          "static": false
+        },
+        {
+          "name": "FindFirstOdd",
+          "return_type": "FindFirstOdd_result",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_808.c",
+      "preferred_function": "ContainsK",
+      "public_functions": [
+        {
+          "name": "ContainsK",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            },
+            {
+              "type": "int",
+              "name": "k"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_809.c",
+      "preferred_function": "IsSmaller",
+      "public_functions": [
+        {
+          "name": "IsSmaller",
+          "return_type": "bool",
+          "params": [
+            {
+              "type": "int *",
+              "name": "a"
+            },
+            {
+              "type": "int *",
+              "name": "b"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_86.c",
+      "preferred_function": "CenteredHexagonalNumber",
+      "public_functions": [
+        {
+          "name": "CenteredHexagonalNumber",
+          "return_type": "long long",
+          "params": [
+            {
+              "type": "long long",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_89.c",
+      "preferred_function": "ClosestSmaller",
+      "public_functions": [
+        {
+          "name": "ClosestSmaller",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_94.c",
+      "preferred_function": "MinSecondValueFirst",
+      "public_functions": [
+        {
+          "name": "MinSecondValueFirst",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "s"
+            },
+            {
+              "type": "int",
+              "name": "s_len"
+            }
+          ],
+          "static": false
+        }
+      ]
+    },
+    {
+      "file": "task_id_95.c",
+      "preferred_function": "SmallestListLength",
+      "public_functions": [
+        {
+          "name": "SmallestListLength",
+          "return_type": "int",
+          "params": [
+            {
+              "type": "int *",
+              "name": "lengths"
+            },
+            {
+              "type": "int",
+              "name": "n"
+            }
+          ],
+          "static": false
+        }
+      ]
+    }
+  ]
+}
