@@ -1,0 +1,7 @@
+task_id_599.dfy(9,18): Error: Verification of 'SumAndAverage' timed out after 366 seconds. (the limit can be increased using --verification-time-limit)
+  |
+9 |     invariant sum == (i - 1) * i / 2
+  |               ^^^^^^^^^^^^^^^^^^^^^^
+
+
+Dafny program verifier finished with 16 verified, 0 errors, 1 time out

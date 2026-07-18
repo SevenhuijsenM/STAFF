@@ -1,0 +1,8 @@
+task_id_267.dfy(9,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant sum == k * (2 * k - 1) * (2 * k + 1) / 3
+  |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Dafny program verifier finished with 14 verified, 1 error

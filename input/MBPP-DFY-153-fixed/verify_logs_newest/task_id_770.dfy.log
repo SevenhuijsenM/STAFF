@@ -1,0 +1,7 @@
+task_id_770.dfy(10,22): Error: Verification of 'SumOfFourthPowerOfOddNumbers' timed out after 300 seconds. (the limit can be increased using --verification-time-limit)
+   |
+10 |         invariant sum == k * (2 * k + 1) * (24 * k * k * k - 12 * k * k  - 14 * k + 7) / 15
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Dafny program verifier finished with 14 verified, 0 errors, 1 time out

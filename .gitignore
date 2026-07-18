@@ -12,7 +12,6 @@ config.json
 # Output directories
 output/
 runs/
-input/
 translated-harnesses/
 formalspecc-dataset/
 FormalSpecACSL-Dataset/
