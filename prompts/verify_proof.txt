@@ -1,0 +1,15 @@
+Verify the following ACSL-annotated C code using Frama-C:
+
+{code}
+
+Please run wp prove or another suitable Frama-C plug-in and report:
+1. Which proof obligations are proven
+2. Which proof obligations fail
+3. Suggestions for improving the specifications to make more proofs pass
+
+Return the analysis results in JSON format:
+{{
+  "proven": ["list of proven properties"],
+  "failed": ["list of failed properties with reasons"],
+  "suggestions": ["list of improvement suggestions"]
+}}

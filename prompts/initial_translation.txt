@@ -1,0 +1,104 @@
+You are tasked with converting the following program from {source_language} to {target_language} annotated with ACSL (ANSI/ISO C Specification Language) specifications suitable for formal verification (e.g., with Frama-C).
+
+<source_program>
+{source_code}
+</source_program>
+
+Follow these steps carefully:
+
+1. Analyze the Source Program
+   - Identify all functions/methods, parameters, return values, and data types.
+   - Extract all specifications, including:
+     - Preconditions (requires)
+     - Postconditions (ensures)
+     - Assertions
+     - Loop invariants
+     - Loop variants / termination measures
+     - Modifies clauses or frame conditions (if present)
+   - Identify any implicit assumptions (e.g., non-null arrays, bounds safety, arithmetic constraints).
+
+2. Type Mapping and Semantic Preservation
+   - Map {source_language} types to appropriate C types.
+   - If the source language uses unbounded integers (e.g., mathematical integers), ensure safe translation to C’s bounded integers.
+     - Add necessary preconditions to prevent overflow/underflow.
+   - Explicitly handle potential:
+     - Integer overflow/underflow
+     - Division by zero
+     - Out-of-bounds array access
+     - Null pointer dereferencing
+   - Preserve the exact functional behavior of the original program.
+
+3. Function Translation
+   - Translate each function into a corresponding C function.
+   - Do NOT generate a main function.
+   - If the source function logically decomposes into helper functions, create appropriate subfunctions.
+   - Each function must have a complete ACSL contract placed immediately above it using block annotations:
+
+     /*
+       requires ...;
+       ensures ...;
+       assigns ...;
+     */
+
+4. ACSL Specification Requirements
+   - Convert:
+     - Preconditions → `requires`
+     - Postconditions → `ensures`
+     - Modifies/frame conditions → `assigns`
+     - Assertions → `//@ assert`
+   - For loops, place annotations immediately above the loop in block form:
+
+     /*
+       loop invariant ...;
+       loop invariant ...;
+       loop assigns ...;
+       loop variant ...;
+     */
+
+   - Infer missing loop invariants when necessary to ensure:
+     - Bounds safety
+     - Preservation of functional properties
+     - Termination (via loop variant)
+
+5. ACSL Conventions to Follow
+    - Use `\result` to refer to return values.
+    - Use `\old(expression)` for pre-state values.
+    - Use `\valid(ptr)` or `\valid(ptr + (0 .. n-1))` for pointer/array validity.
+    - Use `\forall` and `\exists` for quantified properties.
+    - Use logic expressions consistent with ACSL and Frama-C.
+    - Ensure all assigns clauses are precise (no over-approximation).
+
+6. Frama-C Compatibility Rules (Mandatory)
+   - Output Frama-C-compatible ACSL only, not generic pseudo-ACSL.
+   - Use only `/*@ ... */` and `//@ ...` annotation forms.
+   - Never put ordinary `// ...` comments on the same line as a `//@` annotation.
+   - Never use chained inequalities such as `0 <= i <= n`; always write `0 <= i && i <= n`.
+   - Do not use unsupported constructs such as `\length(pointer)` on raw C pointers.
+   - Do not invent logic helpers unless you define them explicitly in valid ACSL.
+   - Keep one ACSL assertion per annotation comment.
+   - Prefer simple Frama-C-friendly annotations over compact but ambiguous formulas.
+
+7. ACSL Syntax Guide (Use These Patterns)
+   - Function contract: `/*@ requires P; assigns A; ensures Q; */`
+   - Loop contract: `/*@ loop invariant I; loop assigns A; loop variant V; */`
+   - Assertion: `//@ assert P;`
+   - Quantifier: `\forall integer i; range ==> property`
+   - Pointer validity: `\valid(p)` or `n == 0 || \valid_read(p + (0 .. n-1))`
+   - Return-value reference: `\result`
+   - Pre-state reference: `\old(expr)`
+
+8. Invalid Patterns to Avoid
+   - `\length(pointer)` or `\strlen(pointer)`
+   - `0 <= i <= n`
+   - undeclared helper predicates/functions used from contracts
+   - multiple ACSL assertions in one annotation comment
+   - prose or markdown fences inside the code output
+
+9. Output Requirements
+    - Output ONLY the final C code.
+    - Do NOT include explanations.
+    - Do NOT include a main function.
+   - Include necessary headers (e.g., <limits.h>, <stddef.h>) only if required.
+   - Ensure the result is syntactically correct C code and suitable for formal verification.
+
+Your output must consist exclusively of the fully annotated {target_language} code with ACSL specifications.

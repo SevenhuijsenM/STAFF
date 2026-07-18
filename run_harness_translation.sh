@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT_DIR"
 mkdir -p runs/MBPP-153-tests-harness-translate
 
 venv/bin/python translate_test_cases.py \
@@ -11,7 +11,7 @@ venv/bin/python translate_test_cases.py \
   --output-dir translated-harnesses \
   --provider openai \
   --model gpt-5.4-mini \
-  --signature-map "${SIGNATURE_MAP:-output/MBPP-DFY-153-fixed/signature_map.json}" \
+  --signature-map output/MBPP-DFY-153-fixed-gpt-5.2-temp0.2-2026-06-23/signature_map.json \
   --test-harness \
   --resume \
   --checkpoint-every 10 \

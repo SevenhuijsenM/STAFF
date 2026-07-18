@@ -1,0 +1,33 @@
+Improve the following ACSL-annotated C code to make it more verifiable by formal methods:
+
+{code}
+
+Goals:
+1. Simplify complex expressions that may be difficult for provers
+2. Add more detailed loop invariants
+3. Break down complex assertions into simpler ones
+4. Add intermediate assertions that help provers
+5. Ensure specifications are complete and precise
+
+Mandatory Frama-C ACSL rules:
+- Use only valid ACSL comment forms: `/*@ ... */` and `//@ ...`
+- Do not put ordinary comments on the same line as `//@` annotations
+- Do not use chained inequalities; rewrite with `&&`
+- Do not use unsupported constructs such as `\length(pointer)`
+- Keep one ACSL assertion per annotation comment
+- Output only valid C + ACSL code, no markdown fences inside the code
+
+Use these ACSL forms as defaults:
+- Function contract: `/*@ requires P; assigns A; ensures Q; */`
+- Loop contract: `/*@ loop invariant I; loop assigns A; loop variant V; */`
+- Assertion: `//@ assert P;`
+- Quantifier: `\forall integer i; range ==> property`
+- Pointer validity: `\valid(p)` or `n == 0 || \valid_read(p + (0 .. n-1))`
+
+Avoid these fragile patterns:
+- `\length(pointer)` or `\strlen(pointer)`
+- `0 <= i <= n`
+- undeclared helper predicates/functions used from contracts
+- multiple ACSL assertions in one annotation comment
+
+Provide the improved code while preserving the original functionality.

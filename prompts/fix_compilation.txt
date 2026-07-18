@@ -1,0 +1,71 @@
+You are tasked with fixing a C program annotated with ACSL that failed to compile or parse with Frama-C.
+
+<incorrect_code>
+{code}
+</incorrect_code>
+
+The following error messages were produced by Frama-C:
+
+<error_messages>
+{error_message}
+</error_messages>
+
+Your goal is to correct the code so that it compiles and parses successfully with Frama-C, while preserving the intended semantics and specifications.
+
+Follow these steps carefully:
+
+1. Analyze the Error Messages
+   - Identify whether the errors are caused by:
+     - C syntax issues
+     - Incorrect types or declarations
+     - Missing headers
+     - Invalid ACSL syntax
+     - Incorrect use of quantifiers, \result, \old, or \valid
+     - Incorrect loop annotation placement
+     - Malformed assigns clauses
+     - Unsupported constructs in Frama-C
+
+2. Fix C-Level Issues
+   - Correct any syntax errors.
+   - Ensure all variables are declared before use.
+   - Ensure correct function signatures and return types.
+   - Add necessary headers only if required.
+   - Fix pointer types and array declarations if incorrect.
+
+3. Fix ACSL Issues
+   - Ensure all ACSL contracts use proper block syntax:
+
+     /*
+       requires ...;
+       ensures ...;
+       assigns ...;
+     */
+
+   - Ensure loop annotations are placed immediately above loops:
+
+     /*
+       loop invariant ...;
+       loop assigns ...;
+       loop variant ...;
+     */
+
+   - Ensure:
+     - `\result` is only used in functions with return values.
+     - `\old(...)` appears only in postconditions.
+     - `\valid(...)` is used correctly for pointers/arrays.
+     - Quantifiers (`\forall`, `\exists`) are syntactically correct.
+     - All assigns clauses are present and well-formed.
+     - No C expressions are incorrectly used as ACSL logic terms.
+
+4. Preserve Specifications
+   - Do NOT weaken specifications unless absolutely necessary for compilation.
+   - Maintain the original preconditions, postconditions, loop invariants, and assertions whenever possible.
+   - If a specification must be adjusted for syntactic correctness, minimally modify it while preserving intent.
+
+5. Output Requirements
+   - Output ONLY the corrected C code.
+   - Do NOT include explanations.
+   - Do NOT include a main function unless one already exists.
+   - Ensure the final result compiles and parses cleanly with Frama-C.
+
+Your output must consist exclusively of the corrected C code with valid ACSL annotations.

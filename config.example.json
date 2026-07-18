@@ -1,0 +1,7 @@
+{
+    "openai_api_key": "REPLACE_WITH_YOUR_KEY",
+    "enable_mutation_testing": true,
+    "mutation_command_template": "acsl-mutation-tester --input {translated_c_path} --report {report_file}",
+    "mutation_timeout": 600,
+    "mutation_report_name": "mutation_report.json"
+}
