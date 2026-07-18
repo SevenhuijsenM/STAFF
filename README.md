@@ -6,7 +6,7 @@ STAFF is a verifier-guided translation pipeline for converting Dafny benchmarks 
 
 - The translation and validation scripts used for the pipeline.
 - A sanitized result snapshot at `public-results/MBPP-DFY-153-fixed-gpt55-full`.
-- Legacy `FormalSpecCpp` folders retained for historical compatibility.
+- The public dataset and helper scripts are organized under the `STAFF-Dataset` and `STAFF-Scripts` folders.
 
 ## Public results
 
@@ -23,10 +23,11 @@ The repository still includes the existing helper scripts for reproducing the wo
 
 - `run_commands/gpt55_full_pipeline_with_tests.sh`
 - `run_harness_translation.sh`
-- `FormalSpecCpp-Scripts/run_tests.py`
+- `STAFF-Scripts/run_tests.py`
 
 These scripts expect a local Python environment and the required verification tooling to be installed.
 
-## Legacy folders
+## Repository layout
 
-The `FormalSpecCpp-Dataset` and `FormalSpecCpp-Scripts` directories are retained because they were part of the original repository history. They are not the main public artifact of STAFF, but they remain available for traceability and compatibility.
+- `STAFF-Dataset` contains the published dataset snapshot.
+- `STAFF-Scripts` contains helper scripts used in the original workflow and kept for reproducibility.

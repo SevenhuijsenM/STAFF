@@ -2,8 +2,8 @@ import os
 import re
 
 # Define paths
-source_dir = "/Users/madhurimachakraborty/Documents/GitHub/FormalSpecCpp/FormalSpecCpp-Dataset/FormalSpecCPP"  # Replace with actual path
-destination_dir = "/Users/madhurimachakraborty/Documents/GitHub/FormalSpecCpp/FormalSpecCpp-Dataset/FormalSpecCPP-NoSpec"  # Replace with actual path
+source_dir = "../STAFF-Dataset/STAFF"  # Replace with the input dataset path if needed
+destination_dir = "../STAFF-Dataset/STAFF-NoSpec"  # Replace with the output dataset path if needed
 
 # Ensure the destination directory exists
 os.makedirs(destination_dir, exist_ok=True)

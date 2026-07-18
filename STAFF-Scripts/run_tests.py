@@ -77,7 +77,7 @@ def find_project_root():
     # Look up the directory tree for a maximum of 5 levels
     for _ in range(5):
         # Check if this directory has the expected subdirectories
-        if (current_dir / "FormalSpecCpp-Dataset").exists() and (current_dir / "FormalSpecCpp-Scripts").exists():
+        if (current_dir / "STAFF-Dataset").exists() and (current_dir / "STAFF-Scripts").exists():
             return current_dir
         
         # Move up one directory
@@ -101,7 +101,7 @@ def main():
     
     if project_root is None:
         print("Error: Could not find the project root directory.")
-        print("Please run this script from within the FormalSpecCpp project directory structure.")
+        print("Please run this script from within the STAFF project directory structure.")
         sys.exit(1)
     
     # Convert relative paths to absolute paths, relative to project root
@@ -111,7 +111,7 @@ def main():
             test_dir = project_root / test_dir
     else:
         # Default test directory
-        test_dir = project_root / "FormalSpecCpp-Dataset" / "FormalSpecCPP-Tests"
+        test_dir = project_root / "STAFF-Dataset" / "STAFF-Tests"
     
     if args.include_dir:
         include_dir = Path(args.include_dir)
@@ -119,7 +119,7 @@ def main():
             include_dir = project_root / include_dir
     else:
         # Default include directory
-        include_dir = project_root / "FormalSpecCpp-Dataset" / "FormalSpecCPP"
+        include_dir = project_root / "STAFF-Dataset" / "STAFF"
     
     # Convert to string for subprocess
     test_dir_str = str(test_dir)
